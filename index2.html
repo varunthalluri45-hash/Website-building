@@ -1,51 +1,47 @@
 <!DOCTYPE html>
-<html lang="eng">
-    <head>
-        <meta charset="utf-8">
-    <title>login page</title>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Login Page</title>
     <link rel="stylesheet" href="style2.css">
-    </head>
-    <body>
-        <nav>
-        <h2> TCS🌍</h2><br><br>
-        <br><br>
+</head>
+<body>
+    <nav>
+        <h1>TCS🌍</h1>
         <a href="index.html">Home</a> |
         <a href="https://www.tcs.com/who-we-are">About us</a> |
         <a href="https://www.tcs.com/">Service</a> |
         <a href="https://tcs.design/website-design-and-development/?playlist=608d099&video=a85bd85">Design</a> |
-        <a href="https://gemini.google.com/app?hl=en-IN">Ask Gemini</a> |
-        </nav>
-        <br><br>
-        <div>
+        <a href="https://gemini.google.com/app?hl=en-IN">Ask Gemini</a>
+    </nav>
+
+    <div>
         <h1>Web Design &</h1>
         <h1>Development</h1>
         <h1>Course</h1>
-        <p>Web Design is a specialisation of the design stream.They also use HTML,</p>
-        <p>CSS editing software,mark up validators etc.,</p>
+        <p>Web Design is a specialization of the design stream. They also use HTML,</p>
+        <p>CSS editing software, markup validators etc.,</p>
         <p>to create design elements.</p>
-        <label for="search"></label>
-        <br>
         <a href="index4.html"><button>Join Us</button></a>
-        </div>
-        <!--Right Side Login Form-->
-                <div class="login-card">
-            <h3>Login Here</h3>
-            <form onsubmit="event.preventDefault(); window.location.href='index3.html';">
-                <div class="input-group">
-                    <input type="email" placeholder="Enter Your Email" required>
-                </div>
-                <div class="input-group">
-                    <input type="password" placeholder="Enter Your Password" required>
-                </div>
-                <button type="submit" class="btn-login">Login</button>
-            </form>
+    </div>
 
-            <form onsubmit="event.preventDefault(); window.location.href='index3.html';"></form>
-            <div class="form-footer">
-                <p>Don't have an account?</p>
-                <a href="index5.html">
-                <button type="button" class="create">Create Account</button></a>
+    <!-- Right Side Login Form -->
+    <div class="login-card">
+        <h3>Login Here</h3>
+        <!-- Added ID 'loginForm' and removed inline 'onsubmit' inline redirect -->
+        <form id="loginForm">
+            <div class="input-group">
+                <input type="email" id="email" placeholder="Enter Your Email" required>
             </div>
+            <div class="input-group">
+                <input type="password" id="password" placeholder="Enter Your Password" required>
             </div>
-        </body>
-        </html>
+            <button type="submit" class="btn-login">Login</button>
+        </form>
+
+        
+    </div>
+
+    <script src="script2.js"></script>
+</body>
+</html>
