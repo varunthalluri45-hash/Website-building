@@ -77,7 +77,7 @@ button {
 /* Right Side Login Form Card */
 .login-card {
     background-color: #0c0c0cb5;
-    padding:  20px;
+    padding:  25px;
     border-radius: 20px;
     width: 310px;
     text-align: center;
@@ -132,7 +132,7 @@ nav h2 {
     position: relative;
 }.login-card {
     position:absolute;
-    top:24%;
+    top:28%;
     left:65%;
 }
 .create {
